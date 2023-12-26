@@ -26,6 +26,13 @@ final Map<String, Map<String, String>> homeCards = {
     "M. Edwin Isa Alfais. Polinema D4-TI.",
     "image":
       "https://i.pinimg.com/736x/75/e8/da/75e8da59a3b129a38b43648e392fefc8.jpg"
+  },
+
+  "Abun": {
+    "title":
+    "M. Akbar. Polinema D4-TI.",
+    "image":
+      "https://i.pinimg.com/736x/6a/07/ba/6a07ba333669a2868959939bab9e7e11.jpg"
   }
 };
 
@@ -77,10 +84,10 @@ class Home extends StatelessWidget {
                   CardSmall(
                     //change here
                     cta: "View Profile",
-                    title: homeCards["examples"]?['title'] ?? "",
-                    img: homeCards["examples"]?['image'] ?? "",
+                    title: homeCards["Abun"]?['title'] ?? "",
+                    img: homeCards["Abun"]?['image'] ?? "",
                     tap: () {
-                      Navigator.pushNamed(context, '/profile_examples');
+                      Navigator.pushNamed(context, '/profile_abun');
                     },
                   ),
                 ],
