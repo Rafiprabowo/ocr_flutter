@@ -98,16 +98,16 @@ class NowDrawer extends StatelessWidget {
                     icon: FontAwesomeIcons.digitalOcean,
                     onTap: () {
                       //change here
-                      if (currentPage != "Profile Example") {
+                      if (currentPage != "Profile Edwin") {
                         Navigator.pushReplacementNamed(
                           //change here
-                            context, '/profile_example');
+                            context, '/profile_edwin');
                       }
                     },
                     iconColor: NowUIColors.primary,
                     //change here
-                    title: "Profile Example",
-                    isSelected: currentPage == "Profile Example",
+                    title: "Profile Edwin",
+                    isSelected: currentPage == "Profile Edwin",
                   ),
 
                   // Examples

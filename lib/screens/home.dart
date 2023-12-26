@@ -16,15 +16,16 @@ import 'package:ocr_app/widgets/navbar.dart';
 final Map<String, Map<String, String>> homeCards = {
   "Rafi": {
     "title":
-        "Muhamad Rafi Prabowo. Aku Rafi. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "Muhamad Rafi Prabowo. Polinema D4-TI.",
     "image":
         "https://www.yorokobe.com/content/images/size/w2000/2023/08/megumi-2.jpg"
   },
-  "Example": {
+  
+  "Edwin": {
     "title":
-    "Muhamad Rafi Prabowo. Aku Rafi. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "M. Edwin Isa Alfais. Polinema D4-TI.",
     "image":
-    "https://www.yorokobe.com/content/images/size/w2000/2023/08/megumi-2.jpg"
+      "https://i.pinimg.com/736x/75/e8/da/75e8da59a3b129a38b43648e392fefc8.jpg"
   }
 };
 
@@ -67,10 +68,10 @@ class Home extends StatelessWidget {
                   CardSmall(
                     //change here
                     cta: "View Profile",
-                    title: homeCards["Nama"]?['title'] ?? "",
-                    img: homeCards["Nama"]?['image'] ?? "",
+                    title: homeCards["Edwin"]?['title'] ?? "",
+                    img: homeCards["Edwin"]?['image'] ?? "",
                     tap: () {
-                      Navigator.pushNamed(context, '/profile_nama');
+                      Navigator.pushNamed(context, '/profile_edwin');
                     },
                   ),
                   CardSmall(
