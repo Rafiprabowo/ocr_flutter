@@ -16,7 +16,7 @@ List<String> imgArray = [
   "assets/imgs/album-6.jpg"
 ];
 
-class ProfileEdwin extends StatelessWidget {
+class ProfileAbun extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
