@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:ocr_app/screens/home.dart';
 import 'package:ocr_app/screens/ocr.dart';
 import 'package:ocr_app/screens/onboarding.dart';
+import 'package:ocr_app/screens/profile_abhel.dart';
 import 'package:ocr_app/screens/profile_edwin.dart';
 import 'package:ocr_app/screens/profile_rafi.dart';
 import 'package:ocr_app/screens/profile_abun.dart';
@@ -35,9 +36,10 @@ class MyApp extends StatelessWidget {
         routes: <String, WidgetBuilder>{
           '/home': (BuildContext context) => new Home(),
           "/onboarding": (BuildContext context) => new Onboarding(),
-          "/profile_edwin": (BuildContext context) => new ProfileEdwin(),
+          "/profile_edwin":(BuildContext context) => new ProfileEdwin(),
           "/profile_rafi": (BuildContext context) => new ProfileRafi(),
           "/profile_abun": (BuildContext context) => new ProfileAbun(),
+          "/profile_abhel": (BuildContext context) => new ProfileAbhel(),
           //menambahkan root baru
           // "/profile_examples": (BuildContext context) => new ProfileExamples()
           // buat file baru di folder /screens dengan nama file "profile_nama.dart"

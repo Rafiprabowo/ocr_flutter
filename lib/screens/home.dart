@@ -96,10 +96,10 @@ class Home extends StatelessWidget {
               CardHorizontal(
                 //change here
                 cta: "View Profile",
-                title: homeCards["examples"]?['title'] ?? "",
-                img: homeCards["examples"]?['image'] ?? "",
+                title: homeCards["Abhel"]?['title'] ?? "",
+                img: homeCards["Abhel"]?['image'] ?? "",
                 tap: () {
-                  Navigator.pushNamed(context, '/profile_examples');
+                  Navigator.pushNamed(context, '/profile_abhel');
                 },
               ),
 
